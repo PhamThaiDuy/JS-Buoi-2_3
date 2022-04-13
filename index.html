@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <input id="txtUsername" type="text" value="Cybersoft" />
+    <button id="btnClick" class="btn btn-success">Click</button>
+    <hr />
+    <div>
+      <input id="txtNumber_1" type="text" />
+      <input id="txtNumber_2" type="text" />
+      <button id="btnCong" class="btn btn-success">Cộng</button>
+      <div id="divInfo" class="textUper"></div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Đăng nhập</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Username</label>
+                <input id="username" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input id="password" type="text" class="form-control" />
+              </div>
+              <button id="btnLogin" class="btn btn-success">Login</button>
+            </div>
+            <div id="footerLogin" class="card-footer text-muted">Footer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div>
+      <button class="btn btn-success">Off</button>
+      <img id="imgBulb" src="./images/pic_bulboff.gif" alt="">
+      <button id="btnOn" class="btn btn-warning">On</button>
+      <button id="btnDisableOn" class="btn btn-info">Dissable button On</button>
+      <button id="btnEnabledOn" class="btn btn-success">Enabled button On</button>
+      <!-- <img src="./images/pic_bulbon.gif" alt=""> -->
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Tính tiền típ</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Tổng tiền thanh toán?</label>
+                <input id="txtTongTien" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Bạn muốn típ bao nhiêu?</label>
+                <select id="selectTip" class="form-control">
+                  <option value="10">10%</option>
+                  <option value="20">20%</option>
+                  <option value="30">30%</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Muốn chia bao nhiêu người?</label>
+                <input id="share" type="text" class="form-control" />
+              </div>
+              <button id="btnTinh" class="btn btn-danger">Tính</button>
+            </div>
+            <div id="footerTip" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div>
+      <button id="btnTaoThe" class="btn btn-success">Tao the</button>
+      <div id="divContent"></div>
+    </div>
+    <hr />
+    <div>
+      <button id="btnTaoBang" class="btn btn-success mb2">Tao Bang</button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Ma san pham</th>
+            <th>Ten san pham</th>
+            <th>Gia san pham</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          
+        </tbody>
+      </table>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

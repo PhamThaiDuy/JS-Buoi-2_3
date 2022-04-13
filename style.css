@@ -1,0 +1,10 @@
+.showInfo{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.textUper{
+    text-transform: uppercase;
+}
